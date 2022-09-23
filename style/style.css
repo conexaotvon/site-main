@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'arvoBold';
+    src: url(../fonts/Arvo-Bold.ttf);
+}
+@font-face {
+    font-family: 'arvoRegular';
+    src: url(../fonts/Arvo-Regular.ttf);
+}
+@font-face {
+    font-family: 'arvoThin';
+    src: url(../fonts/Shrikhand-Regular.ttf);
+}
+@font-face {
+    font-family: 'Sihiring';
+    src: url(../fonts/RobotoThin.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #101935;
+    position: relative;
+    padding: 1px;
+}
+#header h1 {
+    font-size: 100px;
+    font-family: 'Sihiring';
+    margin-left: 20px;
+    text-shadow: 3px 3px 0px black;
+}
+#cabecalho {
+    color: white;
+}
+#container {
+    display: flex;
+    height: 60%;
+    position: relative;
+}
+#imagem {
+    background-color: #878ecc;;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+#conteudo h2{
+    font-family: 'arvoBold';
+    font-size: 30px;
+}
+#conteudo p {
+    margin: 0;
+    font-family: 'arvoRegular';
+}
+#conteudo2 {
+    margin: 20px;
+    font-family: 'arvoThin';
+}
+#sub p {
+    text-align: center;
+}
+#imagem img{
+    width: 65%;
+    border-radius: 10%;
+  
+}
+#content {
+    width: 70%;
+    background-color: #c1c6f3;
+    padding: 20px;
+}
+#content h2 {
+    font-family: 'arvoBold';
+    font-size: 40px;
+}
+#content span {
+    font-family: 'arvoRegular';
+    font-size: 20px;
+ 
+}
+ #footer span{
+  color: #101935;
+ }
+#footer {
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    bottom: 0px;
+    font-family: 'arvoRegular';
+}
+.footer {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+}
+#social {
+   
+    margin: 10px 0 0 0;
+}
+@media screen and (max-width: 600px) {
+    #header {
+        padding: 1px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    #header h1 {
+        font-size: 40px;
+    }
+    #container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #content {
+        width: 100%;
+        padding: 0;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content span {
+        width: 90%;
+        text-align: center;
+    }
+    #imagem {
+        width: 100%;
+    }
+    #footer {
+        position: relative;
+    }
+    #conteudo2 p {
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    #social img{
+        margin: 0 5px;
+    }
+}
